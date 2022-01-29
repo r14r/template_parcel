@@ -7,10 +7,7 @@
 
 ```bash
 npm install --save-dev parcel
-```
-
-```shell
- npm iinstall @parcel/config-default @parcel/core postcss@latest @types/express@latest
+npm install @parcel/config-default @parcel/core postcss@latest @types/express@latest
  ```
 
 ## Run App

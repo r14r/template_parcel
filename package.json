@@ -1,12 +1,23 @@
 {
+	"name": "working-with-parcel",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"source": "src/index.html",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build"
+	},
 	"dependencies": {
 		"@parcel/config-default": "^2.2.1",
 		"@parcel/core": "^2.2.1",
 		"@types/express": "^4.17.13",
-		"parcel": "^2.2.1",
 		"postcss": "^8.4.5"
 	},
 	"devDependencies": {
-		"@parcel/transformer-sass": "^2.2.1"
+		"@parcel/transformer-coffeescript": "^2.2.1",
+		"@parcel/transformer-pug": "^2.2.1",
+		"@parcel/transformer-sass": "^2.2.1",
+		"@parcel/transformer-typescript-tsc": "^2.2.1",
+		"parcel": "^2.2.1",
+		"typescript": ">=3.0.0"
 	}
 }
